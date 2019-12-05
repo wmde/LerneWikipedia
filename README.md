@@ -13,7 +13,7 @@ To update the CSS file automatically use:
 ## Contributing
 If you found a bug, would like to contribute ideas or code or are interested in bringing *Lerne Wikipedia* to another Wikipedia feel free to initiate a pull request to this repo.
 
-Please use the discussion page in Wikipedia to get in contact to the makers of this project.
+Please use the discussion page in Wikipedia to get in contact with the makers of this project.
 
 ## License
 The version developed in this repository is licensed under MIT license.
