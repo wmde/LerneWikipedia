@@ -1,0 +1,4 @@
+{{#if:{{{external|}}} 
+  | <div class="plainlinks lerneWP-button">[{{{link|{{{2|https://}}}}}} <span class="mw-ui-button mw-ui-progressive">{{{text|{{{1|}}}}}}</span>]</div> 
+  | <div class="plainlinks lerneWP-button">[[{{{link|{{{2|WP:Wikimedia Deutschland/LerneWikipedia}}}}}}|<span class="mw-ui-button mw-ui-progressive">{{{text|{{{1|}}}}}}</span>]]</div>
+}}

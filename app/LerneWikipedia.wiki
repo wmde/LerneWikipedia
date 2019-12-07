@@ -1,0 +1,141 @@
+{{LerneWP/top}}
+<div class="lerneWP-intro"><h1 class="lerneWP-title">Lerne Wikipedia</h1>
+Schön, dass du da bist! Du findest hier eine Sammlung an Aufgaben und lernst in drei Schritten, '''wie du bei Wikipedia mitmachen kannst.'''</div>
+<div class="lerneWP-teasers">
+{{LerneWP/Teaser|Dein Benutzerkonto & Einführungskurse|#Schritt1|Illu-hand-tastatur.svg|1|lerneWP-color-red}}
+{{LerneWP/Teaser|Bearbeite deinen ersten Artikel|#Schritt2|Illu-konto.svg|2|lerneWP-color-green}}
+{{LerneWP/Teaser|Finde Hilfe & lerne die Community kennen|#Schritt3|Illu-community.svg|3|lerneWP-color-blue}}
+</div><div id="Schritt0" class="lerneWP-section lerneWP-color-orange">
+<div class="lerneWP-text lerneWP-end-on-mobile">Für Freies Wissen: <br>Die Wikipedia braucht dich!</div>
+<div>{{LerneWP/Box/top|Vorweg: warum dein Beitrag so wichtig ist}}
+* <h4>Weil die Wikipedia ein Projekt der ganzen Menschheit ist</h4> Die Wikipedia ist in fast allen Sprachen und Ländern präsent. Helfe mit, diese einzigartige Online-Enzyklopädie zu erhalten, zu bereichern und weiterzuentwickeln.
+* <h4>Weil die Wikipedia eine vertrauenswürdige Quelle bleiben muss</h4> Wenn die über 2 Millionen Artikel nicht regelmäßig aktualisiert werden, sinkt die Qualität. Es sind weit weniger als 1 % der Leserinnen und Leser, die sich aktiv an Wikipedia beteiligen.
+* <h4>Weil Du sie selbst nutzt</h4> Wie oft hast du selbst schon die Wikipedia genutzt, um Informationen zu finden? Jetzt kannst du selbst an ihr mitwirken. '''Wir zeigen dir hier, wie es funktioniert.'''
+'''Mit deinem Beitrag verbesserst du die größte Enzyklopädie der Welt für Millionen von Menschen – und unterstützt so frei zugängliches Wissen. Jedes Komma zählt!'''
+{{LerneWP/Box/bottom}}</div></div><div class="lerneWP-info">[[File:OOjs UI icon bookmark-progressive.svg|36px]]
+===Wichtig: Speichere dir diese Seite ab!===
+Damit du nach jeder Aufgabe zurück auf diese Seite findest, speichere dir diese bitte als Lesezeichen ab: [https://wikipedia.de/lernewikipedia wikipedia.de/lernewikipedia]. Alternativ öffne alle Links oder Buttons mit einem Rechtsklick in einem neuen Tab.
+
+'''Kehre bitte nach jedem Schritt auf diese Seite zurück.'''
+</div><div class="lerneWP-section lerneWP-section-step lerneWP-color-red" id="Schritt1">
+<div class="lerneWP-icon">[[File:Illu-hand-tastatur.svg|144px]]</div>
+<div>
+==<span class="lerneWP-topline">Schritt 1: </span>Dein Benutzerkonto & erste Schritte==
+{{LerneWP/Box/top|1a. Lege ein Benutzerkonto an}}Durch das Benutzerkonto wirst du in der Lage sein, mit anderen Benutzerinnen und Benutzern in Kontakt zu treten, deinen Arbeitsverlauf abzuspeichern und Benachrichtigungen zu Artikeln zu erhalten, die dich interessieren.
+
+'''Dauer: 1 Minuten'''
+
+{{LerneWP/Button|Benutzerkonto anlegen|Spezial:Benutzerkonto_anlegen}}
+
+'''Du hast schon ein Benutzerkonto?'''
+
+[[Spezial:Anmelden|Dann melde dich an]] und gehe direkt zur nächsten Aufgabe.{{LerneWP/Box/bottom}}
+{{LerneWP/MileStone|'''Wunderbar!'''<br>Du bist jetzt Teil der größten Online-Enzykopädie der Welt!|Icon-badge.svg}}
+</div>
+</div>
+<div class="lerneWP-info">[[File:OOjs UI icon information-progressive.svg|36px]]
+=== Info zu den Kursen ===
+Dein Kurs-Fortschritt wird automatisch gespeichert, wenn du angemeldet bist – du kannst also Pausen einlegen. So kannst du die 15-minütigen Kurse einteilen, wie du möchtest. Du kannst auch einen Kurs überspringen und später nachholen.
+</div>
+<div class="lerneWP-section lerneWP-color-red"><div></div><div>
+{{LerneWP/Box/top|1b. Lerne die Grundlagen des Editierens}}Dieser Kurs zeigt dir die Grundlagen der Artikelbearbeitung: Er umfasst 16 Seiten, durch die du dich durchklicken kannst – am Ende wartet ein kleines Quiz auf dich.
+
+'''Dauer: etwa 15 Minuten'''
+
+{{LerneWP/Button|Kurs starten|https://outreachdashboard.wmflabs.org/training/wikipedia-editieren/editieren-basiswissen|external=yes}}{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|1c. Gestalte deine Benutzerseite}}
+Deine Benutzerseite ist deine ganz persönliche Über-Mich-Seite: Hier kannst du dich der Community vorstellen und lernst gleichzeitig den Text-Editor kennen, den Wikipedia nutzt.
+* Klicke auf das Benutzerkonto-Icon oben im Menü. [[File:OOjs UI icon userAvatar.svg|18px|verweis=Spezial:Meine Benutzerseite]]
+* Lege über den Reiter "Erstellen" deine persönliche Benutzerseite an.
+* Teste den Text-Editor und stelle dich der Community mit einem kleinen Text vor.
+
+Zur Inspiration hier einige [[:Kategorie:Benutzer:nach_Beruf|Benutzerprofile nach Berufen gegliedert]].<br>
+'''Bedenke:''' Deine Benutzerseite ist ist öffentlich sichtbar, sei also achtsam beim Teilen privater Informationen. Mehr Infos dazu findest du auf der [[Hilfe:Benutzernamensraum#Gestaltung_der_Benutzerseite|Hilfeseite]].
+
+'''Dauer: 10 Minuten'''
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|Optional: Deine Spielwiese|lerneWP-optional}}
+Deine persönliche Spielwiese ist eine Seite, auf der du alles ausprobieren kannst (sie ist jedoch öffentlich erreichbar). Hier kannst du dich austoben und im geschützten Rahmen den Wikipedia-Editor kennen lernen. Du musst angemeldet sein, um die Spielwiese nutzen zu können.
+{{LerneWP/Button|Zu deiner Spielwiese||external = yes|link = https://de.wikipedia.org/wiki/Special:MyPage/Spielwiese?tour=seimutig}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/MileStone|'''Glückwunsch!'''<br>Du bist jetzt bereit für das Editieren.|Icon-badge.svg}}</div>
+</div><div class="lerneWP-section lerneWP-section-video">
+<div class="lerneWP-text">Was andere Autorinnen und Autoren bewegt, bei der Wikipedia mitzumachen</div>
+<div>[[File:Machmit Tutorials Teaser.webm|820px]]</div>
+</div><div id="Schritt2" class="lerneWP-section lerneWP-section-step lerneWP-color-green">
+<div class="lerneWP-icon">[[File:Illu-konto.svg|144px]]</div>
+<div>
+==<span class="lerneWP-topline">Schritt 2: </span>Bearbeite deinen ersten Artikel ==
+'''Du bist ganz kurz davor, zur größten Enzyklopädie der Welt beizutragen!''' Am Ende dieses Schritts wirst du deinen ersten Artikel bearbeiten. Also bleib dran!
+{{LerneWP/Box/top|2a. Verstehe die Wikipedia-Richtlinien}}
+Dieser Kurs zeigt dir, welche grundlegenden Richtlinien eingehalten werden müssen, wenn du an Artikeln arbeitest.
+
+'''Dauer: etwa 15 Minuten'''
+
+{{LerneWP/Button|Kurs starten|https://outreachdashboard.wmflabs.org/training/wikipedia-editieren/wikipedia-basiswissen|external=yes}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|Optional: Lerne, Artikel & Quellen zu bewerten|lerneWP-optional}}
+In diesem Kurs lernst du, wie man Quellen mit einem kritischen Auge betrachtet. Das ist wichtig für deine Arbeit in Wikipedia, weil alle Inhalte mit Quellen belegt werden müssen.
+
+{{LerneWP/Button|Kurs starten|https://outreachdashboard.wmflabs.org/training/wikipedia-editieren/artikel-bewerten|external=yes}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|2b. Bearbeite deinen ersten Artikel}}
+Jetzt geht’s los: Hier kannst du Artikel aus deinem Wissensbereich finden, die noch bearbeitet werden müssen, und direkt anfangen.
+
+'''Dauer: etwa 15 Minuten'''
+
+{{LerneWP/Button|Artikel zur Bearbeitung suchen|https://tools.wmflabs.org/mitmachen|external=yes}}
+{{LerneWP/Box/bottom}}
+</div></div>
+<div class="lerneWP-info">[[File:OOjs UI icon heart-progressive.svg|36px]]
+=== Gut Ding will Weile haben ===
+Es braucht etwas Zeit zu verstehen, wie die Wikipedia und die Richtlinien funktionieren und wie deine Bearbeitungen langfristig übernommen werden. Bitte gib nicht gleich auf! [[#Schritt3|Unten]] findest du Kontaktmöglichkeiten, wenn du einmal nicht weiterkommst.
+</div><div class="lerneWP-section lerneWP-color-green"><div></div><div>
+{{LerneWP/MileStone|Du hast gerade die größte Enzyklopadie der Welt verbessert.<br>'''Danke für deine Mithilfe!'''|Icon-badge.svg}}
+{{LerneWP/Box/top|2c. Finde dein Steckenpferd!}}
+Du bist jetzt gerüstet für die Mitarbeit an der Wikipedia. Diese Vertiefungen könnten dich interessieren.
+
+* <h4>Bildmaterial in der Wikipedia ergänzen</h4><div>Keine Lust zu schreiben? Lade deine Fotos in Wikimedia Commons hoch und binde sie ein. Wikimedia Commons ist eine internationale freie Sammlung von Bildern, Videos und Audiodateien: [[:c:Commons:Hochladen|Wikimedia Commons]]</div>
+* <h4>Schreibe zu lokalen oder historischen Themen</h4><div>Auf den Themenportalen findest du gesammelte Diskussionen, neue Artikel und Entwicklungen zum Beispiel zu einem geografischen oder historischen Thema. Schau, ob deine Stadt auch dabei ist: [[Portal:Wikipedia_nach_Themen|Übersicht Themenportale]]</div>
+* <h4>Erhöhe den Frauenanteil in der Wikipedia</h4><div>Du willst dazu beitragen, dass Frauen und Frauenthemen einen größeren Anteil an der Wikipedia haben? Willkommen beim Wikiprojekt Frauen: [[Wikipedia:WikiProjekt_Frauen|Wikiprojekt Frauen]]</div>
+* <h4>Redaktionen</h4><div>Redaktionen sind Plattformen für alle, die sich mit anderen Autorinnen und Autoren zu einem bestimmten Thema oder Fachbereich austauschen wollen. Du interessierst dich zum Beispiel für Biologie oder Film und Fernsehen? Hier findest du passende Redaktionen: [[Wikipedia:Redaktionen|Übersicht aller Redaktionen]]</div>
+* <h4>Lege einen neuen Artikel an</h4><div>Auf dieser Hilfeseite zeigen wir dir, wie du einen neuen Artikel in der Wikipedia anlegen kannst. Beachte dabei bitte alles bisher Gelernte: [[Hilfe:Neuen_Artikel_anlegen|Neuen Artikel anlegen]]</div>
+{{LerneWP/Box/bottom}}
+{{LerneWP/MileStone|'''Geschafft!''' Du bist jetzt Wiki-Autorin <br>oder -Autor. Weiter so!|Icon-badge.svg}}
+</div></div><div id="Schritt3" class="lerneWP-section lerneWP-section-step lerneWP-color-blue"><div class="lerneWP-icon">[[File:Illu-community.svg|144px]]</div><div>
+==<span class="lerneWP-topline">Schritt 3: </span>Finde Hilfe & lerne die Community kennen ==
+'''Wir freuen uns, dich dabei zu haben.''' Es wird sicher nicht immer einfach sein, aber wir sind gemeinsam auf dem Weg – für eine Welt, in der Wissen für alle frei ist.
+{{LerneWP/Box/top|3a. Erfahre mehr über Diskussionen & den Wiki-Code}}
+Jeder Artikel hat eine eigene Diskussionsseite – ein wichtiges Werkzeug in der Wikipedia. In diesem Kurs lernst du mehr über die Diskussionsseite und wie du den Quellcode mit Text-Editor bearbeiten kannst.
+
+'''Dauer: etwa 15 Minuten'''
+
+{{LerneWP/Button|Kurs starten|https://outreachdashboard.wmflabs.org/training/wikipedia-editieren/diskutieren-basiswissen|external=yes}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|Optional: Fragen zur Mitarbeit in Wikipedia|lerneWP-optional}}
+Jeder Anfang wirft Fragen auf. Du hast eine Frage? Her damit!
+{{LerneWP/Button|Frage stellen|Wikipedia:Fragen von Neulingen}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|Optional: Triff andere Autorinnen &amp; Autoren in deiner Nähe|lerneWP-optional}}
+Auf dieser Seite kannst du dir einen Überblick über regionale und internationale Treffen verschaffen.
+{{LerneWP/Button|Treffen der Wikipedianerinnen und Wikipedianer|Wikipedia:Treffen_der_Wikipedianer}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|3b. Mentorin oder Mentor finden}}
+Du bist dir sicher, dass du dabei bleiben und dich tiefer einarbeiten willst? Finde deine persönliche Ansprechpartnerin/deinen persönlichen Ansprechpartner.
+{{LerneWP/Button|Mentorenprogramm|Wikipedia:Mentorenprogramm}}
+{{LerneWP/Box/bottom}}
+{{LerneWP/Box/top|3c. Weitere hilfreiche Links für deine Mitarbeit}}
+* Übersicht über alle Grundlagen der Mitarbeit: [[Wikipedia:Starthilfe/Neu|Starthilfe]]
+* Lerne mehr über die Mitarbeit in der Wikipedia: [[Wikipedia:Wikimedia_Deutschland/Mach_mit|Video-Tutorials]]
+* Das allgemeine Portal der Autorinnen und Autoren in der Wikipedia: [[Wikipedia:Autorenportal|Autorenportal]]
+* Häufige Fragen zu Wikipedia: [[Wikipedia:Wikimedia_Deutschland/Neue_Ehrenamtliche/FAQ|FAQ]]
+{{LerneWP/Box/bottom}}
+{{LerneWP/MileStone|Wissen vermehrt sich, wenn man es teilt!<br>'''Danke, dass du dabei bist.'''|Icon-badge.svg|lerneWP-milestone-bigger}}
+</div></div>
+<div class="lerneWP-info" id="Kontakt">[[File:Echo_feedback.svg|32px]]
+=== Hilf uns, diese Seite zu verbessern! ===
+Du möchtest uns Feedback geben und willst das Projekt der Neulingsgewinnung bei Wikimedia Deutschland e.V. kontaktieren? Schreibe uns eine E-Mail an [mailto:mitmachen@wikipedia.de?subject=LerneWikipedia mitmachen@wikipedia.de] – wir freuen uns!
+
+{{LerneWP/Button|E-Mail schreiben|mailto:mitmachen@wikipedia.de|external=yes}}
+</div>
+{{LerneWP/bottom}}

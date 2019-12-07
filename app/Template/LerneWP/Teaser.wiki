@@ -1,0 +1,1 @@
+<includeonly><div class="lerneWP-teaser {{{classes|{{{5|}}}}}}"><div class="lerneWP-teaser-image lerneWP-icon">[[File:{{{image|{{{3|}}}}}}|144px]]<div class="lerneWP-teaser-no">{{{no|{{{4|}}}}}}</div></div>[[{{{link|{{{2|}}}}}}|<div>{{{text|{{{1|}}}}}}</div>]]</div></includeonly>

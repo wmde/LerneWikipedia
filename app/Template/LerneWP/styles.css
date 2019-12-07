@@ -1,0 +1,328 @@
+.lerneWP {
+  max-width: 65.25rem;
+  min-height: 19em;
+  margin: 0 auto 5em auto;
+  position: relative;
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 1.61111em;
+  color: #222222;
+  /* Buttons */
+  /* BreakPoints Desktop */
+  /* BreakPoints Mobile */ }
+  .lerneWP,
+  .lerneWP * {
+    box-sizing: border-box; }
+  .lerneWP h1,
+  .lerneWP h2,
+  .lerneWP h3,
+  .lerneWP h4 {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    overflow: visible;
+    border: none; }
+  .lerneWP h1 {
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin: 0 0 1rem; }
+  .lerneWP h2 {
+    font-size: 2.1875rem;
+    margin-bottom: 3.625rem;
+    padding: 0; }
+  .lerneWP h3 {
+    font-size: 1.6rem;
+    font-weight: bold; }
+  .lerneWP-topline {
+    font-weight: bold;
+    display: block; }
+  .lerneWP sup,
+  .lerneWP sub {
+    font-size: .55em;
+    font-weight: bolder; }
+  .lerneWP-info.lerneWP-info {
+    background-color: #dce4e8;
+    border-radius: 0.3rem;
+    margin-bottom: 4.4rem;
+    position: relative;
+    padding-left: 4.4rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem; }
+    .lerneWP-info.lerneWP-info::after {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 4.4rem;
+      background-color: transparent; }
+    .lerneWP-info.lerneWP-info > .image:first-child {
+      filter: brightness(0%) invert(13%) sepia(89%) saturate(7500%) hue-rotate(321deg) brightness(90%) contrast(101%);
+      display: block;
+      position: absolute;
+      left: 1.6rem;
+      top: 2.6rem; }
+    .lerneWP-info.lerneWP-info h3 {
+      font-size: 1.625rem;
+      font-weight: bold;
+      padding: 0;
+      margin: 0; }
+    .lerneWP-info.lerneWP-info p > b {
+      font-size: 1.5rem; }
+    .lerneWP-info.lerneWP-info .mw-ui-button {
+      background-color: #e2007a;
+      color: #FFF; }
+  .lerneWP-intro {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin-bottom: 4.4rem; }
+  .lerneWP-box {
+    border: currentColor solid 2px;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    margin-bottom: 4.4rem; }
+    .lerneWP-box.lerneWP-optional {
+      border-style: dashed; }
+      .lerneWP-box.lerneWP-optional h3 {
+        color: #222222;
+        background-color: transparent;
+        padding-bottom: 0; }
+    .lerneWP-box h2 {
+      font-weight: bold; }
+    .lerneWP-box h3 {
+      font-size: 1.5rem;
+      margin: 0;
+      margin-top: 0;
+      display: block; }
+    .lerneWP-box h4 {
+      font-weight: bold; }
+  .lerneWP-text {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    text-align: left;
+    margin-bottom: 4.4rem; }
+  .lerneWP-intro, .lerneWP-info,
+  .lerneWP-box > * {
+    padding: 1.5rem 2.25rem; }
+    .lerneWP-intro > :first-child, .lerneWP-info > :first-child,
+    .lerneWP-box > * > :first-child {
+      margin-top: 0; }
+    .lerneWP-intro > :last-child, .lerneWP-info > :last-child,
+    .lerneWP-box > * > :last-child {
+      margin-bottom: 0; }
+  .lerneWP-milestone {
+    color: #f29400;
+    font-size: 1.5rem;
+    line-height: 1.25em;
+    text-align: right;
+    max-width: 48rem;
+    margin: 4.4rem 0 4.4rem auto;
+    position: relative; }
+    .lerneWP-milestone-bigger {
+      font-size: 2rem; }
+    .lerneWP-milestone > .image {
+      display: block;
+      float: right;
+      margin-left: 1rem; }
+      .lerneWP-milestone > .image > img {
+        width: 1.6em;
+        height: auto; }
+    .lerneWP-milestone::after {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 4.4rem;
+      background-color: transparent;
+      clear: both; }
+  .lerneWP .mw-ui-button {
+    margin-right: 1em;
+    border-radius: 0.3rem;
+    border: none; }
+    .lerneWP .mw-ui-button:hover {
+      filter: brightness(130%); }
+  .lerneWP-teaser {
+    font-size: 1.625rem;
+    text-align: center;
+    margin-bottom: 2.4rem; }
+    .lerneWP-teaser-image.lerneWP-icon {
+      position: relative;
+      margin: 0 auto 1rem; }
+      .lerneWP-teaser-image.lerneWP-icon > .image {
+        display: block;
+        margin: 0 auto; }
+        .lerneWP-teaser-image.lerneWP-icon > .image > img {
+          display: block;
+          margin: 0 auto;
+          transform: translate(0, 30%);
+          transition: all .5s ease-in-out; }
+    .lerneWP-teaser-no {
+      display: inline-block;
+      position: absolute;
+      top: calc(50% - 1.5rem);
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #FFF;
+      font-size: 3rem;
+      line-height: 1;
+      font-weight: bold;
+      text-shadow: 0 0 1em #000;
+      transition: all .4s ease-in-out; }
+  .lerneWP-section {
+    margin-top: -4.4rem;
+    padding-top: 4.4rem; }
+    .lerneWP-section-step {
+      padding-top: 6.6rem; }
+    .lerneWP-section > :last-child > :first-child {
+      margin-top: 0; }
+    .lerneWP-section > :last-child > div:not(:last-child),
+    .lerneWP-section > :last-child > p:not(:last-child),
+    .lerneWP-section > :last-child > h2:not(:last-child) {
+      margin-bottom: 4.4rem; }
+    .lerneWP-section-video {
+      margin: 2rem 0 4.4rem;
+      padding-top: 0; }
+      .lerneWP-section-video .mediaContainer,
+      .lerneWP-section-video .mediaContainer > video {
+        width: 100% !important;
+        height: auto !important; }
+  .lerneWP-color-red .mw-ui-button,
+  .lerneWP-color-red h3 {
+    background-color: #990000;
+    color: #FFF; }
+  .lerneWP-color-red.lerneWP-optional h3,
+  .lerneWP-color-red.lerneWP-teaser a,
+  .lerneWP-color-red h2,
+  .lerneWP-color-red h4 {
+    color: #990000; }
+  .lerneWP-color-red .lerneWP-box {
+    border-color: #990000; }
+  .lerneWP-color-red .lerneWP-icon > .image {
+    background-color: #990000; }
+  .lerneWP-color-green .mw-ui-button,
+  .lerneWP-color-green h3 {
+    background-color: #339966;
+    color: #FFF; }
+  .lerneWP-color-green.lerneWP-optional h3,
+  .lerneWP-color-green.lerneWP-teaser a,
+  .lerneWP-color-green h2,
+  .lerneWP-color-green h4 {
+    color: #339966; }
+  .lerneWP-color-green .lerneWP-box {
+    border-color: #339966; }
+  .lerneWP-color-green .lerneWP-icon > .image {
+    background-color: #339966; }
+  .lerneWP-color-blue .mw-ui-button,
+  .lerneWP-color-blue h3 {
+    background-color: #0065a4;
+    color: #FFF; }
+  .lerneWP-color-blue.lerneWP-optional h3,
+  .lerneWP-color-blue.lerneWP-teaser a,
+  .lerneWP-color-blue h2,
+  .lerneWP-color-blue h4 {
+    color: #0065a4; }
+  .lerneWP-color-blue .lerneWP-box {
+    border-color: #0065a4; }
+  .lerneWP-color-blue .lerneWP-icon > .image {
+    background-color: #0065a4; }
+  .lerneWP-color-orange .mw-ui-button,
+  .lerneWP-color-orange h3 {
+    background-color: #f29400;
+    color: #FFF; }
+  .lerneWP-color-orange.lerneWP-optional h3,
+  .lerneWP-color-orange.lerneWP-teaser a,
+  .lerneWP-color-orange h2,
+  .lerneWP-color-orange h4 {
+    color: #f29400; }
+  .lerneWP-color-orange .lerneWP-box {
+    border-color: #f29400; }
+  .lerneWP-color-orange .lerneWP-icon > .image {
+    background-color: #f29400; }
+  .lerneWP .external {
+    background-image: none;
+    padding-right: 0; }
+  .lerneWP .plainlinks .external::after {
+    content: none; }
+  .lerneWP-icon-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 4.4rem; }
+  .lerneWP-icon::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .lerneWP-icon > .image {
+    background-color: #990000;
+    max-width: 100%;
+    width: 9rem;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    overflow: hidden; }
+    .lerneWP-icon > .image > img {
+      display: block;
+      margin: 0; }
+  .lerneWP-icon:not(.lerneWP-teaser-image) {
+    transform: translate(0, -2.6rem); }
+  @media screen and (min-width: 56.25rem) {
+    .lerneWP-section {
+      display: flex;
+      flex-direction: row;
+      align-content: stretch; }
+      .lerneWP-section > :first-child {
+        margin-right: 2rem;
+        flex: 0 0 12rem; }
+      .lerneWP-section > :last-child {
+        margin-right: 0;
+        flex: 1 1 auto; }
+    .lerneWP-icon .image {
+      margin: 0 auto; }
+    .lerneWP-teasers {
+      display: flex;
+      flex-direction: row;
+      align-content: stretch;
+      padding: 0 2rem;
+      margin-bottom: 4.4rem; }
+    .lerneWP-teaser {
+      flex-basis: calc(100% / 3);
+      position: relative;
+      margin-bottom: 6rem; }
+      .lerneWP-teaser:not(:last-child) {
+        margin-right: 2rem; }
+      .lerneWP-teaser > a:not(.image) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: -4rem; }
+        .lerneWP-teaser > a:not(.image) > div {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          text-decoration: underline; }
+      .lerneWP-teaser .image {
+        display: block;
+        transition: all ease-in-out .5s; }
+      .lerneWP-teaser:hover .image > img {
+        transform: none; }
+      .lerneWP-teaser:hover .lerneWP-teaser-no {
+        transform: translate(0, -6rem) rotate(45deg);
+        opacity: 0;
+        text-shadow: none; } }
+  @media screen and (max-width: 899px) {
+    .lerneWP-section {
+      display: flex;
+      flex-direction: column; }
+    .lerneWP-end-on-mobile {
+      order: 5; } }

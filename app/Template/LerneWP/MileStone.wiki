@@ -1,0 +1,1 @@
+<includeonly><div class="lerneWP-milestone {{{classes|{{{3|}}}}}}">{{#if: {{{image|{{{2|}}}}}} |[[File:{{{image|{{{2|}}}}}}|x84px]]|}}{{{text|{{{1|}}}}}}</div></includeonly>

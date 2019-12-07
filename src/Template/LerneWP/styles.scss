@@ -1,0 +1,586 @@
+// Variables ////
+
+$color-red: #990000;
+$color-green: #339966;
+$color-blue: #0065a4;
+$color-orange: #f29400;
+$color-magenta: #e2007a;
+$color-grey: #dce4e8;
+
+$color-dark: #222222;
+$color-black: #000;
+$color-white: #FFF;
+
+$color-primary: $color-red;
+$color-secondary: $color-green;
+$color-tertiary: $color-blue;
+
+$section-gap: 4.4rem;
+
+$colors: ($color-primary, $color-secondary, $color-tertiary);
+
+$font-antiqua: 'Linux Libertine',
+Georgia,
+serif;
+$font-grotesk: Arial,
+sans-serif;
+$mobile: 'body.skin-minerva';
+$breakpoints: ("s": 450px, "m": 640px, "l": 940px, "xl": 1200px);
+
+$page-marginal-width:176px;
+
+$border-radius:.3rem;
+$box-padding: 1.2rem 1.8rem;
+$grid-gap: 2rem;
+$columns: 12;
+$grid-gaps: $grid-gap * $columns;
+
+$baseFontSize: 16px;
+
+// Functions ////
+
+@function toRem($px) {
+  @return 1rem * $px / $baseFontSize;
+}
+
+@function toEm($px, $base) {
+  @return 1em * $px / $base;
+}
+
+// Code ////
+.lerneWP {
+  max-width: toRem(1044px);
+  min-height: 19em;
+  margin: 0 auto 5em auto;
+  position: relative;
+  width: 100%;
+  font-size: toRem(18px);
+  line-height: toEm(29px, 18px);
+
+  color: $color-dark;
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: $font-grotesk;
+    font-weight: 400;
+    line-height: 1;
+    overflow: visible;
+    border: none;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: toRem(50px);
+    margin: 0 0 1rem;
+  }
+
+  h2 {
+    //font-family: $font-antiqua;
+    font-size: toRem(35px);
+    margin-bottom: toRem(58px);
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  &-topline {
+    font-weight: bold;
+    display: block;
+  }
+
+  sup,
+  sub {
+    font-size: .55em;
+    font-weight: bolder;
+  }
+
+  &-info.lerneWP-info {
+    background-color: $color-grey;
+    border-radius: $border-radius;
+    margin-bottom: $section-gap;
+    position: relative;
+    padding-left: 4.4rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+
+    &::after {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 4.4rem;
+      background-color: transparent;
+    }
+
+    >.image:first-child {
+      filter: brightness(0%) invert(13%) sepia(89%) saturate(7500%) hue-rotate(321deg) brightness(90%) contrast(101%);
+      display: block;
+      position: absolute;
+      left: 1.6rem;
+      top: 2.6rem;
+    }
+
+    h3 {
+      //font-family: $font-antiqua;
+      font-size: toRem(26px);
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+    }
+
+    p>b {
+      font-size: toRem(24px);
+    }
+
+    .mw-ui-button {
+      background-color: $color-magenta;
+      color: $color-white;
+    }
+  }
+
+  &-intro {
+    font-size: toRem(24px);
+    line-height: toEm(36px, 24px);
+    margin-bottom: $section-gap;
+  }
+
+  &-box {
+    border: currentColor solid 2px;
+    border-radius: $border-radius;
+    overflow: hidden;
+    margin-bottom: $section-gap;
+
+    &.lerneWP-optional {
+      border-style: dashed;
+
+      h3 {
+        color: $color-dark;
+        background-color: transparent;
+        padding-bottom: 0;
+      }
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: toRem(24px);
+      margin: 0;
+      margin-top: 0;
+      display: block;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+  }
+
+  &-text {
+    font-size: toRem(24px);
+    line-height: toEm(36px, 24px);
+    //font-family: $font-antiqua;
+    //font-style: italic;
+    text-align: left;
+    margin-bottom: $section-gap;
+  }
+
+  &-intro,
+  &-info,
+  &-box>* {
+    padding: toRem(24px) toRem(36px);
+
+    &>:first-child {
+      margin-top: 0;
+    }
+
+    &>:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-milestone {
+    color: $color-orange;
+    font-size: toRem(24px);
+    line-height: toEm(30px, 24px);
+    text-align: right;
+    max-width: 48rem;
+    margin: $section-gap 0 $section-gap auto;
+    position: relative;
+
+    &-bigger {
+      font-size: toRem(32px);
+    }
+
+    &>.image {
+      display: block;
+      float: right;
+      margin-left: 1rem;
+
+      >img {
+        width: 1.6em;
+        height: auto;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 4.4rem;
+      background-color: transparent;
+      clear: both;
+    }
+  }
+
+  /* Buttons */
+  .mw-ui-button {
+    margin-right: 1em;
+    border-radius: $border-radius;
+    border: none;
+
+    &:hover {
+      filter: brightness(130%);
+    }
+  }
+
+  &-teaser {
+    font-size: toRem(26px);
+    text-align: center;
+    margin-bottom: 2.4rem;
+
+    &-image.lerneWP-icon {
+      position: relative;
+      margin: 0 auto 1rem;
+
+      >.image {
+        display: block;
+        margin: 0 auto;
+
+        >img {
+          display: block;
+          margin: 0 auto;
+          transform: translate(0, 30%);
+          transition: all .5s ease-in-out;
+        }
+      }
+    }
+
+    &-no {
+      display: inline-block;
+      position: absolute;
+      top: calc(50% - #{toRem(48px) / 2});
+      left:0;
+      right: 0;
+      text-align: center;
+      color: $color-white;
+      font-size: toRem(48px);
+      line-height: 1;
+      font-weight: bold;
+      text-shadow: 0 0 1em #000;
+      transition: all .4s ease-in-out;
+    }
+  }
+
+  &-section {
+    margin-top: -$section-gap;
+    padding-top: $section-gap;
+
+    &-step{
+      padding-top: $section-gap * 1.5;
+    }
+
+    &>:last-child {
+      &>:first-child {
+        margin-top: 0;
+      }
+
+      >div,
+      >p,
+      >h2 {
+        &:not(:last-child) {
+          margin-bottom: $section-gap;
+        }
+      }
+    }
+
+    &-video {
+      margin: 2rem 0 $section-gap;
+      padding-top: 0;
+
+      .mediaContainer {
+
+        &,
+        &>video {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+    }
+  }
+
+  &-color-red {
+
+    .mw-ui-button,
+    h3 {
+      background-color: $color-red;
+      color: $color-white;
+    }
+
+
+    &.lerneWP-optional h3,
+    &.lerneWP-teaser a,
+    h2,
+    h4 {
+      color: $color-red;
+    }
+
+    .lerneWP-box {
+      border-color: $color-red;
+    }
+
+    .lerneWP-icon>.image {
+      background-color: $color-red;
+    }
+  }
+
+  &-color-green {
+
+    .mw-ui-button,
+    h3 {
+      background-color: $color-green;
+      color: $color-white;
+    }
+
+    &.lerneWP-optional h3,
+    &.lerneWP-teaser a,
+    h2,
+    h4 {
+      color: $color-green;
+    }
+
+    .lerneWP-box {
+      border-color: $color-green;
+    }
+
+    .lerneWP-icon>.image {
+      background-color: $color-green;
+    }
+  }
+
+  &-color-blue {
+
+    .mw-ui-button,
+    h3 {
+      background-color: $color-blue;
+      color: $color-white;
+    }
+
+    &.lerneWP-optional h3,
+    &.lerneWP-teaser a,
+    h2,
+    h4 {
+      color: $color-blue;
+    }
+
+    .lerneWP-box {
+      border-color: $color-blue;
+    }
+
+    .lerneWP-icon>.image {
+      background-color: $color-blue;
+    }
+  }
+
+  &-color-orange {
+
+    .mw-ui-button,
+    h3 {
+      background-color: $color-orange;
+      color: $color-white;
+    }
+
+    &.lerneWP-optional h3,
+    &.lerneWP-teaser a,
+    h2,
+    h4 {
+      color: $color-orange;
+    }
+
+    .lerneWP-box {
+      border-color: $color-orange;
+    }
+
+    .lerneWP-icon>.image {
+      background-color: $color-orange;
+    }
+  }
+
+  .external {
+    background-image: none;
+    padding-right: 0;
+
+    &::after {
+      //content: ' »';
+    }
+  }
+
+  .plainlinks .external {
+    &::after {
+      content: none;
+    }
+  }
+
+  &-icon {
+
+    &-start {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: $section-gap;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      background-color: transparent;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    >.image {
+      background-color: $color-red;
+
+      max-width: 100%;
+      width: toRem(144px);
+      display: block;
+      margin: 0;
+
+      border-radius: 50%;
+      overflow: hidden;
+
+      >img {
+        display: block;
+        margin: 0;
+      }
+    }
+
+    &:not(.lerneWP-teaser-image) {
+      transform: translate(0, -2.6rem);
+    }
+  }
+
+  /* BreakPoints Desktop */
+  @media screen and (min-width:toRem(900px)) {
+    &-section {
+      display: flex;
+      flex-direction: row;
+      align-content: stretch;
+
+      >:first-child {
+        margin-right: 2rem;
+        flex: 0 0 12rem;
+      }
+
+      >:last-child {
+        margin-right: 0;
+        flex: 1 1 auto;
+      }
+    }
+
+    &-icon {
+      .image {
+        margin: 0 auto;
+      }
+    }
+
+    &-teasers {
+      display: flex;
+      flex-direction: row;
+      align-content: stretch;
+      padding: 0 2rem;
+      margin-bottom: $section-gap;
+    }
+
+    &-teaser {
+      flex-basis: calc(100% / 3);
+      position: relative;
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+
+      margin-bottom: 6rem;
+
+      >a:not(.image) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: -4rem;
+
+        >div {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          text-decoration: underline;
+        }
+      }
+
+      .image {
+        display: block;
+        transition: all ease-in-out .5s;
+      }
+
+      &:hover {
+        .image {
+          >img {
+            transform: none;
+          }
+        }
+
+        .lerneWP-teaser-no {
+          transform: translate(0, -6rem) rotate(45deg);
+          opacity: 0;
+          text-shadow: none;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width:899px) {
+    &-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-end-on-mobile {
+      order: 5;
+    }
+  }
+
+
+  /* BreakPoints Mobile */
+  #{$mobile} {
+    @media screen and (min-width:1068px) {}
+  }
+}

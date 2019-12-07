@@ -1,0 +1,14 @@
+{
+  "name": "LerneWikipedia",
+  "version": "1.0.0",
+  "description": "Lerne Wikipedia - Landingpage",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch ./src/Template/LerneWP/styles.scss -o ./app/Template/LerneWP"
+  },
+  "author": "Martin Kraft",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

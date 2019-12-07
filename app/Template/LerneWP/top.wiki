@@ -1,0 +1,2 @@
+<onlyinclude><templatestyles src="Template:LerneWP/styles.css" />__NOTOC__ __NOEDITSECTION__<div class="lerneWP"></onlyinclude>
+</div>
