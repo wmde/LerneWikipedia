@@ -1,2 +1,4 @@
 <noinclude>{{info|Dies ist eine Vorlagen-Sammlung zur Gestaltung der Kampagnen Seiten "Lerne Wikipedia" 2019. 
 Bitte nur in Absprache mit [[User:Interaktionsdesign]] anpassen!}}</noinclude>
+
+Der zugehörige Quelltext [https://github.com/wmde/LerneWikipedia findet sich auf GitHub].
